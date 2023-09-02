@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    
+}
+.container{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap: 4px;
+    
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+    width: 600px;
+    cursor: none;
+   
+
+}
+
+img{
+    height: 100%;
+    max-width:100% ;
+    
+    
+}
+
+.box{
+    position: absolute;
+    border:1px solid black;
+    height: 100%;
+    width: 100%;
+    top:0px;
+    left:0px;
+    backdrop-filter: blur(50px);
+
+}
+
+button{
+    font-family:courier;
+    padding:8px 10px;
+    background-color:rgb(251, 129, 255);
+    border: none;
+
+    border-bottom: 5px solid rgb(191, 107, 194);
+    border-left: 1px solid rgb(191, 107, 194);
+    border-radius: 5px;
+    color:rgb(110, 37, 112);
+    cursor:pointer;
+    position: relative;
+    margin: 10px;
+    padding:20px 40px;
+}
+
+button:active{
+    border-bottom-width:2px ;
+    top:3px
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+.letter{
+    
+    border: 2px solid black;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: bold;
+    vertical-align: middle;
+    box-sizing: border-box;
+    color: rgb(110, 37, 112);
+    text-transform: uppercase;
+}
+.space{
+   
+    height: 40px;
+    width: 40px;
+   visibility: none;
+}
+
+
+.guess-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 5px;
+    justify-content: center;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(37, 35, 35);
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+nav h1{
+    margin:0 ;
+}
+canvas{
+    position: absolute;
+    top:0;
+    left: 10%;
+    width: 75%;
+    height: 100%;
+
+}
+
+
+
+.flex{
+    display: flex;
+}
+
+.guessbox{
+    justify-content: center;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Guess Who</h1>
+    </nav>
+    <div class="container">
+        <div class="guesses"></div>
+        <div class="img-container">
+            <img src="https://media.vanityfair.com/photos/60a3dc7b0078142b5901d804/master/w_2560%2Cc_limit/473407500" alt="">
+            <div class="box">
+            </div>
+        </div>
+        <canvas></canvas>
+    </div>
+    <div class="guessbox flex">
+        <div class="guess-container"></div>
+    </div>
+    <div class="buttons">
+        <div class="button-container">
+            <button class="unblur">Submit</button>
+        </div>
+        <div class="button-container">
+            <button class=" reset unblur">reset</button>
+        </div>
+    </div>
+    <script src="photo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
